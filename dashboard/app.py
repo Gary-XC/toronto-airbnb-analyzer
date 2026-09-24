@@ -102,7 +102,7 @@ st.markdown(
 
 # Aggregate for the scatter plot
 neighborhood_metrics = (
-    filtered_df.groupby("neighbourhood")
+    filtered_df.groupby(["neighbourhood", "neighbourhood_group"])
     .agg(
         median_price=("price", "median"),
         total_est_revenue=("estimated_annual_revenue", "sum"),
