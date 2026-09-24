@@ -1,0 +1,11 @@
+# Ignore all raw data files
+data/raw/*
+!data/raw/.gitkeep
+
+# Ignoring processed data
+data/processed/*
+!data/processed/.gitkeep
+
+# Python Virtual Environment
+.venv
+
