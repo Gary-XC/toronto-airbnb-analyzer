@@ -33,4 +33,4 @@ Intellectual honesty is critical in data science. Stakeholders should be aware o
 * **Point-in-Time Snapshot:** This data represents a single snapshot in time. It does not capture intra-year seasonality (e.g., peak summer tourism vs. winter dips). A longitudinal analysis using the `calendar.csv` file is recommended for underwriting.
 
 ---
-*Project built by Gary Chen | [LinkedIn Profile](https://www.linkedin.com/in/garychenx/) *
+*Project built by Gary Chen | [LinkedIn Profile](https://www.linkedin.com/in/garychenx/)*
